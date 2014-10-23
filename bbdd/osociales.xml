@@ -1,0 +1,18 @@
+<obrasociales>
+	<obrasocial idObraSocial="1">
+		<nombre>SEROS</nombre>
+		<observaciones>empleados publicos del chubut</observaciones>
+	</obrasocial>
+	<obrasocial idObraSocial="2">
+		<nombre>SEROS VITAL</nombre>
+		<observaciones>poblacion del chubut</observaciones>
+	</obrasocial>
+	<obrasocial idObraSocial="3">
+		<nombre>OSDE</nombre>
+		<observaciones>Obra Social De Ejecutivos</observaciones>
+	</obrasocial>
+	<obrasocial idObraSocial="4">
+		<nombre>OSECAC</nombre>
+		<observaciones>Obra social de empleado de comercio</observaciones>
+	</obrasocial>
+</obrasociales>
