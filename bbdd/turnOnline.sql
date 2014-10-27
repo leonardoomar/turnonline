@@ -132,11 +132,11 @@ ENGINE = InnoDB;
 -- volcado de datos de tablas
 -- ------------------------------
 
-INSERT INTO obrasSosiales (idObraSocial,nombre,observaciones) VALUES
+INSERT INTO obrasSociales (idObraSocial,nombre,observaciones) VALUES
 (1,'SEROS','obra social empleados publicos provincia del chubut'),
 (2,'SEROS VITAL','obra social residentes en la provincia del chubut'),
 (3,'OSECAC','obra social empleados de comercio'),
-(4,'OSDE','obra social de ejecutivos')
+(4,'OSDE','obra social de ejecutivos'),
 (5,'OSPRERA','obra social de los trabajadores rurales y estibadores');
 
 INSERT INTO especialidad (idEspecialidad,nombre) VALUES
@@ -147,3 +147,17 @@ INSERT INTO especialidad (idEspecialidad,nombre) VALUES
 (5,'traumatologia'),
 (6,'cardiologia'),
 (7,'radiologia');
+
+INSERT INTO persona (dni, nombre, apellido) VALUES
+(100,'pepe','argento'),
+(150,'el gato','con botas'),
+(200,'pancho','villa'),
+(250,'peter','capusoto'),
+(300,'cormillot','cormillot');
+
+INSERT INTO profesional (dni,id_Especialidad,telCelular,telFijo,observaciones) VALUES
+(100,1,"999","",""),
+(150,1,"555","",""),
+(200,2,"777","88","nada"),
+(250,4,"","55555",""),
+(300,7,"123","234","");
